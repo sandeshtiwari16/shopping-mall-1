@@ -3,6 +3,15 @@
 ## Introduction
 It is a simple shopping mall management system. The mall will provide a soothing shopping experience for customers, provide mall management functions to mall administrators and inventory/staff management to shop owners at the mall.
 
+Once you login to the application, you can perform CRUD operations on Shopping Mall modules. There are 7 modules in this project. They are:
+- Customer
+- Employee
+- Mall
+- Item
+- Shop
+- Shop Owner
+- User
+
 ### Mall Administrator
 The Mall Administrator is the super user and has complete control over all the activities that can be performed. The administrator can check the details of all the shops in the mall. The administrator can also get details about the mall employees and customers.
 
