@@ -1,0 +1,65 @@
+database schema name - "demo"
+
+table name - "customer"
+id - INT
+name - VARCHAR
+orders - VARCHAR
+phone - VARCHAR
+email - VARCHAR
+address - VARCHAR
+
+table name - "employee"
+id - INT
+name - VARCHAR
+dob - VARCHAR
+salary - VARCHAR
+address - VARCHAR
+designation - VARCHAR
+shop - VARCHAR
+
+table name - "employee"
+id - INT
+name - VARCHAR
+dob - VARCHAR
+salary - VARCHAR
+address - VARCHAR
+designation - VARCHAR
+shop - VARCHAR
+
+table name - "item"
+id - INT
+itemname - VARCHAR
+price - VARCHAR
+mdate - VARCHAR
+edate - VARCHAR
+category - VARCHAR
+
+table name - "mall"
+id - INT
+admin - VARCHAR
+mallname - VARCHAR
+location - VARCHAR
+category - VARCHAR
+
+
+table name - "owner"
+id - INT
+name - VARCHAR
+address - VARCHAR
+dob - VARCHAR
+shopname - VARCHAR
+
+table name - "shop"
+id - INT
+scategory - VARCHAR
+sname - VARCHAR
+sstatus - VARCHAR
+sowner - VARCHAR
+leasestatus - VARCHAR
+
+
+table name - "user"
+id - INT
+name - VARCHAR
+type - VARCHAR
+password - VARCHAR
