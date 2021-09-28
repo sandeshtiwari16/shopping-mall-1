@@ -1,0 +1,108 @@
+package entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="owner")
+public class Owner {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="id")
+	protected int id;
+	
+	@Column(name="name")    
+	private String name;
+	
+	@Column(name="address")
+	private String college;
+	
+	@Column(name="dob")
+	private String roll;
+	
+	@Column(name="shopname")
+	private String qualification;
+	
+
+	
+	public Owner() {
+	}
+	
+	
+	public Owner(String name, String college, String roll, String qualification) 
+	{
+		
+		this.name = name;
+		this.college = college;
+		this.roll = roll;
+		this.qualification = qualification;
+
+	}
+	
+	public Owner(int id, String name, String college, String roll, String qualification) 
+	{
+		this.id = id;
+		this.name = name;
+		this.college = college;
+		this.roll = roll;
+		this.qualification = qualification;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getCollege() {
+		return college;
+	}
+
+
+	public void setCollege(String college) {
+		this.college = college;
+	}
+
+
+	public String getRoll() {
+		return roll;
+	}
+
+
+	public void setRoll(String roll) {
+		this.roll = roll;
+	}
+
+
+	public String getQualification() {
+		return qualification;
+	}
+
+
+	public void setQualification(String qualification) {
+		this.qualification = qualification;
+	}
+
+	
+}
